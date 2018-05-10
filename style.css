@@ -9,6 +9,11 @@ a{
 a:hover{
 	text-decoration: underline;
 }
+nav{
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
 nav ul{
 	list-style: none;
 }
@@ -25,10 +30,12 @@ nav ul li{
 .main{
 	margin: 50px;
 	padding: 50px;
+
 }
 .google{
 	text-align: center;
 	font-size: 50px;
+	padding: 20% 0px 0px 0px;
 
 }
 #g1{
@@ -76,6 +83,11 @@ nav ul li{
 }
 .search-button button:hover{
 	background-color: gray;
+}
+footer{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
 }
 footer ul{
 	list-style: none;
